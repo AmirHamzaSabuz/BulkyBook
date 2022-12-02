@@ -17,12 +17,18 @@
     <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="6.0.9" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="6.0.9" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.9" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.10" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\BulkyBook_DataAccess\BulkyBook_DataAccess.csproj" />
     <ProjectReference Include="..\BulkyBook_Models\BulkyBook_Models.csproj" />
     <ProjectReference Include="..\BulkyBook_Utility\BulkyBook_Utility.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Areas\Customer\Data\" />
+    <Folder Include="Areas\Customer\Models\" />
   </ItemGroup>
 
 </Project>

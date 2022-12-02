@@ -3,8 +3,9 @@ using BulkyBook_Models.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 
 
-namespace BulkyBook_Web.Controllers;
+namespace BulkyBook_Web.Areas.Customer.Controllers;
 
+[Area("Customer")]
 public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;

@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
-namespace BulkyBook_Web.Data;
+namespace BulkyBook_DataAccess.Data;
 
 public class ApplicationDbContext : IdentityDbContext
 {

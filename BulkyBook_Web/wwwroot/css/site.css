@@ -15,6 +15,17 @@ a.navbar-brand {
     border-color: #1861ac;
 }
 
+.dropdown :hover {
+    color:white !important;
+}
+
+.dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover {
+    background-color: white !important;
+    color: blue !important;
+}
+
+
+
 html {
     font-size: 14px;
 }
